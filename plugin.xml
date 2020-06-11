@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="rioTest-cordova-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordovaRioTest</name>
+    <js-module name="cordovaRioTest" src="www/cordovaRioTest.js">
+        <clobbers target="cordova.plugins.cordovaRioTest" />
+    </js-module>
+</plugin>

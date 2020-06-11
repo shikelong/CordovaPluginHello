@@ -1,0 +1,14 @@
+{
+  "name": "rioTest-cordova-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "rioTest-cordova-plugin",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "ISC"
+}

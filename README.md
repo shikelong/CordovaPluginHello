@@ -1,2 +1,2 @@
 # CordovaPluginHello
-Study how to developer a simple cordova plugin
+Study how to develope a simple cordova plugin
