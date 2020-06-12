@@ -4,11 +4,17 @@
   "description": "",
   "cordova": {
     "id": "rioTest-cordova-plugin",
-    "platforms": []
+    "platforms": [
+      "android"
+    ]
   },
   "keywords": [
     "ecosystem:cordova"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shikelong/CordovaPluginHello.git"
+  },
   "author": "",
   "license": "ISC"
 }

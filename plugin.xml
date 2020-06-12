@@ -1,7 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="rioTest-cordova-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordovaRioTest</name>
+
+    <engines>
+        <engine name="cordova" version=">3.4.0"></engine>
+    </engines>
+
     <js-module name="cordovaRioTest" src="www/cordovaRioTest.js">
         <clobbers target="cordova.plugins.cordovaRioTest" />
     </js-module>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+        <feature name="HelloWorld">
+            <param name="android-package" value="com.riotest.plugin.HelloWorld"/>
+        </feature>
+    </config-file>
+    <source-file src="src/android/HelloWorld.java" target-dir="src/org/apache/cordova/plugin" />
+    </platform>
 </plugin>
