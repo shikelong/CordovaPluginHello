@@ -1,4 +1,4 @@
-package com.riotest.plugin.HelloWorld;
+package com.riotest.plugin;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
